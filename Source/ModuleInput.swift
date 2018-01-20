@@ -1,0 +1,18 @@
+//
+//  ModuleInput.swift
+//  ViperArch
+//
+//  Created by Eduard Pelesh on 10/17/16.
+//  Copyright © 2016 ideil. All rights reserved.
+//
+
+import Foundation
+
+public protocol ModuleInput: class {
+    func set(moduleOutput: ModuleOutput)
+}
+
+public extension ModuleInput {
+    func set(moduleOutput: ModuleOutput) {}
+}
+
