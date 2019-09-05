@@ -160,7 +160,7 @@ extension UIViewController: ModuleTransitionHandler {
         } else if presentingViewController != nil {
             dismiss(animated: animated)
         } else if view.superview != nil {
-            removeFromParentViewController()
+            removeFromParent()
             view.removeFromSuperview()
         }
     }
